@@ -1,0 +1,495 @@
+<!DOCTYPE HTML>
+<html lang="tr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="tr" />
+    <title>GoMail Kurumsal Mail Çözümleri</title>
+
+    <meta name="description" content="GoMail">
+    <meta name="keywords" content="GoMail">
+    <meta name="Revisit-After" content="1 Days" />
+    <meta name="alexaVerifyID" content="0l4aaJeWWgbwfikedpbs9QJjNFw" />
+    <meta name="googlebot" content="all" />
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" type="icon/ico" href="favicon.ico" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/media.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- Owl Carousel Assets -->
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+
+    <!--[if lte IE 7]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link href="css/ie7.css" rel="stylesheet" />
+    <![endif]-->
+    <!--[if lte IE 8]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link href="css/ie8.css" rel="stylesheet" />
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+
+        <div class="wrapper">
+
+            <!-- logo -->
+            <div class="logo"><a href="index.html">GoMail</a><span>Entegre Pazarlama ve İletişim Çözümleri</span></div>
+            <!-- end logo -->
+
+            <!-- menuContent -->
+            <div class="menuContent">
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="kurumsal.html">Kurumsal</a></li>
+                        <li><a href="ozellikler.html">Özellikler</a></li>
+                        <li><a href="servisler.html">Servisler</a></li>
+                        <li><a href="cozumler.html">E-Posta Çözümleri</a></li>
+                        <li><a href="fiyatlar.html">Fiyatlar</a></li>
+                        <li><a href="sss.html">S.S.S</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <ul class="buttons">
+                    <li class="loginClick">
+                        <a class="btn btn-red login" href="javascript:;">Giriş</a>
+                        <ul class="dropdownLogin">
+                            <!-- uye girisi -->
+                            <div id="siteLogin" class="siteForm">
+                                <div class="siteForm-detay">
+                                    <form id="girisForm" name="girisForm" action="profil" method="post" novalidate="novalidate">
+                                        <div class="ohidden">
+                                            <input class="inputFull replace" type="text" name="username" placeholder="Kullanıcı Adı" maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="ohidden">
+                                            <input class="inputFull" type="password" name="password" placeholder="Parola" maxlength="20" autocomplete="off">
+                                        </div>
+                                        <input type="submit" value="Giriş" class="btn btn-big btn-full btn-green butonLoad">
+                                    </form>
+                                    <a class="giris-sifre" href="sifremi-unuttum.html">Parolamı Unuttum</a>
+                                </div>
+                                <div class="socialOr">
+                                    <span class="socialOrText">Henüz üye değil misiniz?</span>
+                                </div>
+                                <div class="siteForm-fbtw">
+                                    <a href="kayit.html" class="btn btn-big btn-full btn-red">Üye Ol</a>
+                                </div>
+                            </div>
+                            <!-- end uye girisi -->
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- end menuContent -->
+
+        </div>
+
+    </header>
+    <!-- end header -->
+
+    <!-- slider -->
+    <div class="slider">
+        <div class="container">
+            <div class="sliderLeft">
+                <div class="u-table">
+                    <div class="u-table-cell">
+                        <h1>İsabetli kampanyalar, <br> mutlu müşteriler</h1>
+                        <p>GoMail ile pazarlama kampanyalarınızı daha isabetli hale getirerek daha fazla geri dönüş alın. Mutlu müşterilerimizin arasına hemen katılın...</p>
+                        <ul class="slidebuttons">
+                            <li><a class="btn btn-outline btn-standard" href="#">Keşfet</a></li>
+                            <li><a data-fancybox="modal" data-src="#teklifiste" class="btn btn-red" href="javascript:;">Teklif Al</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderRight">
+                <img src="assets/img/slider.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- end slider -->
+
+    <!-- teklifiste -->
+    <div id="teklifiste" class="siteForm">
+        <div class="siteForm-header">
+            <h1>Teklif Al</h1>
+            <a class="siteForm-kapat"></a>
+        </div>
+        <div class="siteForm-detay">
+            <form id="teklifForm" name="teklifForm" method="post" action="onay.php" novalidate="novalidate">
+                <input type="hidden" name="durum" value="teklif-iste">
+                <div>
+                    <input class="inputFull" type="text" name="adsoyad" placeholder="Ad ve Soyad" maxlength="100" autocomplete="off" onkeyup="buyukHarf(this);">
+                </div>
+                <div>
+                    <input class="inputFull" type="text" name="telefon" placeholder="Telefon Numarası" maxlength="320" autocomplete="off">
+                </div>
+                <div>
+                    <input class="inputFull" type="text" name="email" placeholder="E-Posta Adresi" maxlength="320" autocomplete="off">
+                </div>
+                <div>
+                    <input class="inputFull" type="text" name="adres" placeholder="Adres" maxlength="320" autocomplete="off">
+                </div>
+                <div>
+                    <textarea class="textareaFull" name="aciklama" placeholder="Açıklama"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Gönder" class="btn btn-big btn-full btn-red">
+                </div>
+                <p>Profesyonel danışmanlarımız en kısa zamanda sizlerle irtibata geçecektir.</p>
+            </form>
+        </div>
+    </div>
+    <!-- end teklifiste -->
+
+    <!-- basliklar -->
+    <section class="basliklar">
+
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-3 col-sm-3 col-xs-12">
+                    <img src="assets/img/basliklar/1.png">
+                    <h1>Kolay</h1>
+                    <p>GoMail, gönderime hazır şablonlarını kullanarak kampanyalarınızı kolayca hazırlayarak tek bir tuş ile hedef kitlenize ulaştırabilirsiniz.</p>
+                    <a class="btn btn-red" href="#">detaylı bilgi</a>
+                </div>
+                <div class="col col-md-3 col-sm-3 col-xs-12">
+                    <img src="assets/img/basliklar/2.png">
+                    <h1>Hızlı</h1>
+                    <p>GoMail, çok kanallı gönderime uygun altyapısı ile gönderim boyutunuz ne olursa olsun belirlediğiniz süre içerisinde alıcılarına ulaşır.</p>
+                    <a class="btn btn-red" href="#">detaylı bilgi</a>
+                </div>
+                <div class="col col-md-3 col-sm-3 col-xs-12">
+                    <img src="assets/img/basliklar/3.png">
+                    <h1>İsabetli</h1>
+                    <p>GoMail, uluslararası sertifikasyonlara sahip güvenilir bir göndericidir. Kampanyalarınızı doğrudan ve hızlıca hedefine ulaştırır.</p>
+                    <a class="btn btn-red" href="#">detaylı bilgi</a>
+                </div>
+                <div class="col col-md-3 col-sm-3 col-xs-12">
+                    <img src="assets/img/basliklar/4.png">
+                    <h1>Raporlanabilir</h1>
+                    <p>GoMail ile kampanya gönderileriniz izlenebilir ve raporlanabilir. Gönderileriniz ile ilgili görüntüleme ve tıklanma raporları <br> alınabilir.</p>
+                    <a class="btn btn-red" href="#">detaylı bilgi</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end basliklar -->
+
+    <!-- ozellikler -->
+    <section class="ozellikler">
+        <div class="container">
+            <div class="baslik">
+                <h1>Sıradışı Özellikler</h1>
+            </div>
+            <div class="row">
+                <div class="col col-md-4 col-sm-6 col-xs-12">
+                    <div class="ozellik-icon" style="background-image:url(assets/img/ozellikler/1.png)"></div>
+                    <div class="ozellik-text">
+                        <h1>Kolay Tasarım Sihirbazı</h1>
+                        <p>GoMail, kolay tasarım sihirbazı sayesinde kampanyalarınızı kolayca ve hızlı bir şekilde tasarlayabilirsiniz…</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 col-sm-6 col-xs-12">
+                    <div class="ozellik-icon" style="background-image:url(assets/img/ozellikler/4.png)"></div>
+                    <div class="ozellik-text">
+                        <h1>Zamanlanmış Gönderim</h1>
+                        <p>GoMail'in zamanlanmış gönderim özelliği ile ileri tarihli, periyodik ve tetikleyicilere bağlı gönderim planlaması yapabilirsiniz…</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 col-sm-6 col-xs-12">
+                    <div class="ozellik-icon" style="background-image:url(assets/img/ozellikler/3.png)"></div>
+                    <div class="ozellik-text">
+                        <h1>Dinamik Raporlama</h1>
+                        <p>Gerçek zamanlı dinamik raporlar sayesinde gönderilerinizi anlık olarak izleyin ve kampanyalarınıza yön verin...</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 col-sm-6 col-xs-12">
+                    <div class="ozellik-icon" style="background-image:url(assets/img/ozellikler/14.png)"></div>
+                    <div class="ozellik-text">
+                        <h1>Daha Görünür Olun</h1>
+                        <p>Pazarlama Uzmanlarımız ile göz alıcı kampanyalar oluşturun, Domain ve IP Reputation'u ile daha fazla kişiye doğrudan ulaşın...</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 col-sm-6 col-xs-12">
+                    <div class="ozellik-icon" style="background-image:url(assets/img/ozellikler/6.png)"></div>
+                    <div class="ozellik-text">
+                        <h1>Alıcı Doğrulama</h1>
+                        <p>Alıcı doğrulama ile listelerinizi kontrol ederek hatalı alıcıları listenizden çıkarın, gönderileriniz için daha az ödeyin...</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 col-sm-6 col-xs-12">
+                    <div class="ozellik-icon" style="background-image:url(assets/img/ozellikler/8.png)"></div>
+                    <div class="ozellik-text">
+                        <h1>Çok Kanallı Gönderim</h1>
+                        <p>Yüksek adetli gönderimlerinizi çoklu gönderim özelliği sayesinde optimize ederek belirleyeceğiniz KPI sürelerinde tamamlayın…</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tumu">
+                <a href="ozellikler.html" class="btn btn-green">Tüm Özellikleri Gör</a>
+            </div>
+        </div>
+    </section>
+    <!-- end ozellikler -->
+
+    <!-- cozumler -->
+    <section class="cozumler">
+        <div class="container">
+            <div class="cozumSol">
+                <div class="baslik">
+                    <h1>Kurumsal E-Posta Çözümleri</h1>
+                    <p>GoMail geliştirmekte olduğu e-posta teknolojileri ile işletmelerin kurumsal e-posta ihtiyaçlarını hızlı, kesintisiz, güvenilir ve uygun maaliyetlerle karşılar.</p>
+                </div>
+                <div class="row">
+                    <div class="col col-md-6 col-sm-6 col-xs-12">
+                        <div class="cozum-icon" style="background-image:url(assets/img/cozumler/1.png)"></div>
+                        <div class="cozum-text">
+                            <h1>Cloud Mail</h1>
+                            <p>Küçük ve orta ölçekli ekiplerin yüksek performans ile tüm ihtiyaçlarını bir arada karşılamak için tasarlandı...</p>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-sm-6 col-xs-12">
+                        <div class="cozum-icon" style="background-image:url(assets/img/cozumler/2.png)"></div>
+                        <div class="cozum-text">
+                            <h1>Smart Cloud Mail</h1>
+                            <p>SmartCloudMail'in “Esnek Faturalama Özelliği” sayesinde işletme maliyeterinizi kontrol altına alın... </p>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-sm-6 col-xs-12">
+                        <div class="cozum-icon" style="background-image:url(assets/img/cozumler/4.png)"></div>
+                        <div class="cozum-text">
+                            <h1>BusinessMailContainer </h1>
+                            <p>Kurumsal işletmeler için tasarlanmış BusinessMailContainer ile herşey kontrolünüz altında...</p>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-sm-6 col-xs-12">
+                        <div class="cozum-icon" style="background-image:url(assets/img/cozumler/3.png)"></div>
+                        <div class="cozum-text">
+                            <h1>Hybrid Mail Çözümleri</h1>
+                            <p>HybridMail ile yüksek önceliğe sahip kullanıcılarınıza hakettiği özel servis ayrılcalıklarını yaşatın...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tumu">
+                    <a href="cozumler.html" class="btn btn-red">Tüm Çözümleri Gör</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end cozumler -->
+
+    <!-- ipuclar -->
+    <section class="ipuclar">
+        <div class="container">
+            <div class="baslik">
+                <h1>Mutlu Müşterileriz Ne Dediler</h1>
+            </div>
+            <div id="ipuclar" class="owl-carousel">
+
+                <div class="col">
+				<h1>GoMail ile Kampanya Dönüşlerimizi %60 Oranında Arttırdık...</h1>
+					<p>Lojistik sektöründe ciddi bir rekabet söz konusu, müşterilerimizin yurtiçi ve yurt dışı transferlerini gerçekleştirmek için sürekli iletişim halinde olmalıyız. Müşterilerimize seferlerimizi, kapasitemizi ve taşıma ücretlerimizi düzenli olarak bildirmeliyiz.
+					Bu sayede rekabette bir adım öncde olmak mümkün GoMail ile tanışmadan önce... (Lojistik A.Ş. Genel Müdürü Ahmet Yılmaz)</p>
+                    <div class="tumu">
+                        <a href="mutlu-musteri-pematransport.html" class="btn btn-green">devamını oku</a>
+                    </div>
+                </div>
+
+                <div class="col">
+				<h1>GoMail Kurumsal Mail Çözümleriyle</br>Tüm Çalışanlarımız Kesintisiz İletişim Halinde...</h1>
+                    <p>Şirketimizin dünyanın dörtbir yanında operasyonları bulunuyor. İnşaattan, sanayiye bir çok alanda yer alan şirketimiz NASA'ya ait uzay araçlarının jet motorlarını üretmektedir. Yurt dışında bulunan çalışanlarımız ve iş ortaklarımız , tüm dünyada önemli inşaat projelerine imza atmakta olup, aynı zamanda ülkemizde bir çok yatırımı buluan</p>
+                    <div class="tumu">
+                        <a href="mutlu-musteri-ihi-infrastructure.html" class="btn btn-green">devamını oku</a>
+                    </div>
+                </div>
+
+                <div class="col">
+				<h1>GoMail'in Sunduğu Detaylı Raporlar Sayesinde</br>Duyurularımızın Alıcılara Ulaştığından Eminiz...</h1>
+                    <p>Vestibulum ultrices sem cursus dolor volutpat congue. Proin et interdum est, at suscipit arcu. In hac habitasse platea dictumst. In dignissim nec velit a sagittis. Quisque varius nec mi sit amet tristique. Aenean interdum luctus tortor
+                        vel sollicitudin. 2</p>
+                    <div class="tumu">
+                        <a href="mutlu-musteri-uskudar-fikir-sanat-merkezi.html" class="btn btn-green">devamını oku</a>
+                    </div>
+                </div>
+
+                <div class="col">
+				<h1>Faturalarımız Alıcılara Tam Zamanında Teslim Ediliyor</br>Duyurularımızın Alıcılara Ulaştığından Eminiz...</h1>
+                    <p>Vestibulum ultrices sem cursus dolor volutpat congue. Proin et interdum est, at suscipit arcu. In hac habitasse platea dictumst. In dignissim nec velit a sagittis. Quisque varius nec mi sit amet tristique. Aenean interdum luctus tortor
+                        vel sollicitudin. 2</p>
+                    <div class="tumu">
+                        <a href="mutlu-musteri-12m-consulting.html" class="btn btn-green">devamını oku</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end ipuclar -->
+
+    <footer>
+
+        <div class="container">
+
+            <!-- footerLinks -->
+            <div class="footerLinks">
+                <div class="row">
+                    <div class="col col-md-2 col-sm-2 col-sm-6 col-xs-12">
+                        <h1>Kurumsal</h1>
+                        <a href="kurumsal.html">Hakkımızda</a>
+                        <a href="kurumsal.html">Hizmet Politikamız</a>
+                        <a href="kurumsal.html">Anti-Spam Politikamız</a>
+                        <a href="kurumsal.html">Gizlilik Politikamız</a>
+                    </div>
+                    <div class="col col-md-2 col-sm-2 col-sm-6 col-xs-12">
+                        <h1>Özellikler</h1>
+                        <a href="ozellikler.html">Kolay Tasarım Sihirbazı</a>
+                        <a href="ozellikler.html">Kolay Entegrasyon</a>
+                        <a href="ozellikler.html">Dinamik Raporlama</a><a href="#">Zamanlanmış Gönderi</a>
+                        <a href="ozellikler.html">GEO Location</a>
+                        <a href="ozellikler.html">Alıcı Doğrulama</a>
+                    </div>
+                    <div class="col col-md-2 col-sm-2 col-sm-6 col-xs-12">
+                        <h1>Servisler</h1>
+                        <a href="servisler.html">E-Posta Doğrulama</a>
+                        <a href="servisler.html">API Entegrasyonu</a>
+                        <a href="servisler.html">Kampanya Yönetimi</a>
+                        <a href="servisler.html">E-Bülten Yönetimi</a>
+                        <a href="servisler.html">Transactional Mail</a>
+                    </div>
+                    <div class="col col-md-2 col-sm-2 col-sm-6 col-xs-12">
+                        <h1>E-Posta Çözümleri</h1>
+                        <a href="cozumler.html">Cloud Mail</a>
+                        <a href="cozumler.html">KEP Posta Çözümleri</a>
+                        <a href="cozumler.html">Kurumsal Mail Sunucu Çözümleri</a>
+                        <a href="cozumler.html">Hybrid Mail Çözümleri</a>
+                        <a href="cozumler.html">Mail Arşivleme Çözümleri</a>
+                    </div>
+                    <div class="col col-md-2 col-sm-2 col-sm-6 col-xs-12">
+                        <h1>Fiyatlar</h1>
+                        <a href="fiyatlar.html">Fiyatlar Listesi</a>
+                        <a href="fiyatlar.html">Fiyatlar Listesi 2</a>
+                        <a href="fiyatlar.html">Fiyatlar Listesi 3</a>
+                    </div>
+                    <div class="col col-md-2 col-sm-2 col-sm-6 col-xs-12">
+                        <h1>Bize Ulaşın</h1>
+                        <a href="iletisim.html">Bize Ulaşın</a>
+                        <a href="iletisim.html">Adres Telefon Bilgileri</a>
+                        <a href="sss.html">Sıkça Sorulan Sorular</a>
+                        <a href="gizlilik.html">Gizlilik Sözleşmesi</a>
+                    </div>
+                </div>
+            </div>
+            <!-- end footerLinks -->
+
+            <!-- social -->
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/" class="btn-fbblue-dark">
+                            <span class="icon facebook"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" class="btn-twitter">
+                            <span class="icon twitter"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end social -->
+
+            <!-- copy -->
+            <div class="copy">
+                <p>GoMail © 2017 Tüm hakları saklıdır.</p>
+            </div>
+            <!-- end copy -->
+
+        </div>
+
+    </footer>
+
+    <!-- navmenu -->
+    <div class="navMenu">
+
+        <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+
+    </div>
+
+    <nav>
+        <ul class="cd-primary-nav">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="kurumsal.html">Kurumsal</a></li>
+            <li><a href="ozellikler.html">Özellikler</a></li>
+            <li><a href="servisler.html">Servisler</a></li>
+            <li><a href="cozumler.html">E-Posta Çözümleri</a></li>
+            <li><a href="fiyatlar.html">Fiyatlar</a></li>
+            <li><a href="sss.html">S.S.S</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <div class="cd-overlay-nav">
+        <span></span>
+    </div>
+    <!-- cd-overlay-nav -->
+
+    <div class="cd-overlay-content">
+        <span></span>
+    </div>
+    <!-- cd-overlay-content -->
+    <!-- end navmenu -->
+
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+
+    <!-- fancybox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- password -->
+    <script type="text/javascript" src="assets/js/pass/strength.js "></script>
+
+    <!-- capslock -->
+    <script type="text/javascript" src="assets/js/capslock/jquery.capslockstate.js "></script>
+
+    <!-- validate -->
+    <script type="text/javascript" src="assets/js/validate/jquery.validate.js "></script>
+    <script type="text/javascript" src="assets/js/validate/jquery.maskedinput-1.2.1.pack.js "></script>
+
+    <!-- scroll -->
+    <script type="text/javascript" src="assets/js/scroll/enscroll-0.4.2.min.js "></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js "></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="assets/js/velocity.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#ipuclar").owlCarousel({
+                autoPlay: 8000,
+                pagination: true,
+                navigation: false,
+                singleItem: true,
+                navigationText: ["geri", "ileri"]
+            });
+        });
+    </script>
+
+</body>
+
+</html>
