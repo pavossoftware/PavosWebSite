@@ -2220,6 +2220,54 @@ footer .copy p {
 
 /* white-box */
 
+.white-box-nomargin {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 35px;
+    position: relative;
+    -webkit-box-shadow: 0 20px 65px 6px rgba(0, 0, 0, .03);
+    box-shadow: 0 20px 65px 6px rgba(0, 0, 0, .03);
+}
+
+.white-box-nomargin:last-child {
+    margin-bottom: 0;
+}
+
+.white-box-nomargin h1 {
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+.white-box-nomargin p {
+    font-weight: 500;
+    color: #888;
+    line-height: 26px;
+}
+
+.white-box-nomargin .white-box-item.box-r-left {
+    float: left;
+    margin-right: 250px;
+}
+
+.white-box-nomargin .white-box-item.box-r-right {
+    float: right;
+    margin-left: 250px;
+}
+
+.white-box-nomargin .white-box-item.box-a-right {
+    position: absolute;
+    right: 80px;
+    top: 90px;
+}
+
+.white-box-nomargin .white-box-item.box-a-left {
+    position: absolute;
+    left: 80px;
+    ;
+    top: 90px;
+}
+
 .white-box {
     width: 100%;
     float: left;
