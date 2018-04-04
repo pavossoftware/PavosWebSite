@@ -1554,6 +1554,10 @@ header {
     padding: 30px 0;
 }
 
+.basliklar  {
+	background: #fff;
+}
+
 .basliklar .col {
     text-align: center;
     padding: 0 20px;
@@ -1580,6 +1584,43 @@ header {
 }
 
 .basliklar .col a {
+    margin: 15px 0 0 0;
+}
+
+
+.basliklar-white {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+	background: #fff;
+}
+
+.basliklar-white .col {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.basliklar-white .col img {
+    width: 80px;
+}
+
+.basliklar-white .col h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.basliklar-white .col p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0;
+    color: #888;
+}
+
+.basliklar-white .col a {
     margin: 15px 0 0 0;
 }
 
@@ -2235,7 +2276,6 @@ footer .copy p {
 }
 
 .white-box-nomargin h1 {
-    font-weight: 700;
     margin: 0 0 15px 0;
 }
 
