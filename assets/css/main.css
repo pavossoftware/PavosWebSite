@@ -1,44 +1,4 @@
-@font-face {
-    font-family: 'museosansrounded';
-    src: url('../fonts/museo/museosansrounded100-webfont.woff2') format('woff2'), url('../fonts/museo/museosansrounded100-webfont.woff') format('woff'), url('../fonts/museo/museosansrounded100-webfont.ttf') format('truetype'), url('../fonts/museo/museosansrounded100-webfont.svg#museosansroundedw03-100Rg') format('svg');
-    font-weight: 100;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'museosansrounded';
-    src: url('../fonts/museo/museosansrounded300-webfont.woff2') format('woff2'), url('../fonts/museo/museosansrounded300-webfont.woff') format('woff'), url('../fonts/museo/museosansrounded300-webfont.ttf') format('truetype'), url('../fonts/museo/museosansrounded300-webfont.svg#museosansroundedw03-300Rg') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'museosansrounded';
-    src: url('../fonts/museo/museosansrounded500-webfont.woff2') format('woff2'), url('../fonts/museo/museosansrounded500-webfont.woff') format('woff'), url('../fonts/museo/museosansrounded500-webfont.ttf') format('truetype'), url('../fonts/museo/museosansrounded500-webfont.svg#museosansroundedw03-500Rg') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'museosansrounded';
-    src: url('../fonts/museo/museosansrounded700-webfont.woff2') format('woff2'), url('../fonts/museo/museosansrounded700-webfont.woff') format('woff'), url('../fonts/museo/museosansrounded700-webfont.ttf') format('truetype'), url('../fonts/museo/museosansrounded700-webfont.svg#museosansroundedw03-700Rg') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'museosansrounded';
-    src: url('../fonts/museo/museosansrounded900-webfont.woff2') format('woff2'), url('../fonts/museo/museosansrounded900-webfont.woff') format('woff'), url('../fonts/museo/museosansrounded900-webfont.ttf') format('truetype'), url('../fonts/museo/museosansrounded900-webfont.svg#museosansroundedw03-900Rg') format('svg');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'museosansrounded';
-    src: url('../fonts/museo/museosansrounded1000-webfont.woff2') format('woff2'), url('../fonts/museo/museosansrounded1000-webfont.woff') format('woff'), url('../fonts/museo/museosansrounded1000-webfont.ttf') format('truetype'), url('../fonts/museo/museosansrounded1000-webfont.svg#museosansroundedw03-1000Rg') format('svg');
-    font-weight: 1000;
-    font-style: normal;
-}
 
 .invisible {
     visibility: hidden
@@ -3375,7 +3335,7 @@ textarea, .fakeTextarea {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     background: #fff;
-    font: 500 16px/20px "museosansrounded", sans-serif;
+    font:'Poppins', sans-serif;
     color: #999;
     padding: 15px;
     -webkit-border-radius: 10px;
@@ -3396,7 +3356,7 @@ input[type=text], input[type=password], .fakeInput {
     display: block;
     border: 2px solid #eee;
     background: #fff;
-    font: 500 16px/22px "museosansrounded", sans-serif;
+    font: 'Poppins', sans-serif;
     padding: 11px 15px;
     color: #999;
     -webkit-border-radius: 10px;
@@ -3906,7 +3866,7 @@ button.close {
     z-index: 202;
     text-transform: none;
     font-weight: 300;
-    font-family: 'museosansrounded';
+    font-family: 'Poppins', sans-serif;
 }
 
 .tooltip-arrow {
