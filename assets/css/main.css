@@ -1,5 +1,7 @@
 
 
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto');
+
 .invisible {
     visibility: hidden
 }
@@ -4859,20 +4861,20 @@ tbody.collapse.in {
 }
 
 .btn-blue-dark {
-    background: #1493d1;
+    background: #010e3b;
     color: #fff;
-    border-color: #1493d1
+    border-color: #010e3b
 }
 
 .btn-blue-dark:hover {
-    background: #fff;
-    border-color: #fff;
-    color: #1caff6
+    background: #01114b;
+    border-color: #01114b;
+    color: #fff
 }
 
 .btn-blue-dark:active {
-    background: #1493d1;
-    border-color: #1493d1;
+    background: #010e3b;
+    border-color: #010e3b;
     color: #fff
 }
 
