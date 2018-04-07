@@ -1914,6 +1914,14 @@ header {
 }
 
 
+.seperator {
+    float: left;
+    width: 100%;
+	background: #f1d975;
+    padding: 10px 0;
+}
+
+
 /* footer */
 
 footer {
