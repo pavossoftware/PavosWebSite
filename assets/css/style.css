@@ -1,8 +1,12 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto');
+
 body {
-    background: #f2f2f2;
+    background: #006a91;
     color: #fff;
     -webkit-font-smoothing: antialiased;
-    font: 500 15px/20px "museosansrounded", sans-serif;
+    font: 1em 'Poppins', sans-serif;
     color: #3c3c3c;
     overflow-y: scroll;
 }
@@ -94,7 +98,7 @@ a:active, a:hover {
 }
 
 h1 {
-    font-size: 2em
+    font: 2em 'Roboto', sans-serif;
 }
 
 p {
@@ -1668,7 +1672,7 @@ header {
 .ozellikler {
     float: left;
     width: 100%;
-    background: #fff;
+    background: #f6fbf5;
     padding: 50px 0;
 }
 
@@ -2124,7 +2128,7 @@ footer .copy p {
 /* page-body-content */
 
 .page-body .page-body-content {
-    background-color: #f2f2f2;
+    background-color: #bededb;
     height: auto;
     padding: 15px 0px;
 }
