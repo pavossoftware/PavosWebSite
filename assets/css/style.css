@@ -1918,7 +1918,8 @@ header {
     float: left;
     width: 100%;
 	background: #f1d975;
-    padding: 10px 0;
+    padding: 5px 0;
+	margin-bottom: 20px;
 }
 
 
