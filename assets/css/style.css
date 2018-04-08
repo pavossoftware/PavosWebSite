@@ -1636,6 +1636,7 @@ header {
     float: left;
     width: 100%;
     padding: 20px 0;
+	background: #bededb;
 }
 
 .partners .col {
@@ -1921,6 +1922,14 @@ header {
 	background: #f1d975;
     padding: 3px 0;
 	margin-bottom: 20px;
+}
+
+.seperator-blue {
+    float: left;
+    width: 100%;
+	background: #006a91;
+    padding: 3px 0;
+	margin-bottom: 3px;
 }
 
 
