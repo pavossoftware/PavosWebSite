@@ -1923,6 +1923,12 @@ header {
     padding: 3px 0;
 	margin-bottom: 20px;
 }
+.seperator-top {
+    float: left;
+    width: 100%;
+	background: #f1d975;
+    padding: 3px 0;
+}
 
 .seperator-blue {
     float: left;
