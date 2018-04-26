@@ -2392,14 +2392,13 @@ footer .copy p {
 .white-box .white-box-item.box-a-right {
     position: absolute;
     right: 80px;
-    top: 90px;
+    top: 40%;
 }
 
 .white-box .white-box-item.box-a-left {
     position: absolute;
     left: 80px;
-    ;
-    top: 90px;
+    top: 40%;
 }
 
 .readMoreContent {
