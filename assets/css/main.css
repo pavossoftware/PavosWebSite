@@ -3245,9 +3245,11 @@ h1 {
     color: #3c3c3c;
     font-weight: 300;
     margin: 0 0 50px 0
+	
+	
 }
 
-h1.player {
+h1.player {			
     font-size: 32px;
     text-align: center;
     font-weight: 500;
@@ -3258,7 +3260,7 @@ h2 {
     font-size: 20px;
     color: #3c3c3c;
     font-weight: 500;
-    margin: 0 0 25px 0;
+    margin: 10px 0 15px 0;
     line-height: 26px;
     cursor: default
 }
@@ -3271,7 +3273,7 @@ h2.gray {
     font-size: 20px;
     color: #999;
     font-weight: 500;
-    margin: 0 0 25px 0;
+    margin: 10px 0 15px 0;
     line-height: 26px;
     cursor: default
 }
@@ -3283,7 +3285,7 @@ h2.player {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 27px;
     margin: 0 0 10px 0
 }
 
@@ -3296,7 +3298,7 @@ h3 a:hover {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 20px;
     color: #3c3c3c;
     margin: 0 0 10px 0
 }
