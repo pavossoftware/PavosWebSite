@@ -1,0 +1,557 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+    height: 70px;
+}
+.logo {
+    float: left;
+    height: 70px;
+}
+.logo span {
+    display: none;
+}
+.logo a {
+    height: 70px;
+}
+.buttons {
+    float: left;
+    margin: 16px 0 0 10px;
+}
+.cd-nav-trigger {
+    right: 10px;
+    top: 16px;
+}
+.cd-primary-nav a {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* slider */
+.slider {
+    height: auto;
+    padding: 20px 0;
+    margin: 70px 0 0 0;
+}
+.sliderLeft {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.slider .sliderLeft h1 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.slidebuttons {
+    float: initial;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+.slider .sliderRight {
+    display: none;
+}
+#teklifiste {
+    width: 320px;
+    padding: 0;
+    display: none;
+    margin: 0;
+}
+.siteForm .siteForm-detay {
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+.siteForm .siteForm-header h1 {
+    font-size: 20px;
+    margin: 10px auto 0;
+    font-weight: 700;
+    line-height: inherit;
+}
+
+/* basliklar */
+.basliklar {
+    padding: 10px 0;
+}
+.basliklar .col img {
+    width: 90px;
+}
+
+/* ozellikler */
+.ozellikler {
+    padding: 10px 0;
+}
+.ozellikler .baslik {
+    text-align: center;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+.ozellikler .baslik:after {
+    bottom: -10px;
+}
+.ozellikler .baslik h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+.ozellikler .col {
+    position: relative;
+    margin: 10px 0 0 0;
+}
+.ozellikler .tumu {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+/* cozumler */
+.cozumler {
+    height: auto;
+    padding: 10px 0;
+    background: #f2f2f2;
+}
+.cozumler .cozumSol .baslik h1 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.cozumler .cozumSol .col {
+    position: relative;
+    margin: 0 0 10px 0;
+}
+.cozumler .cozumSol .tumu {
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    float: initial;
+    width: 100%;
+}
+
+/* kampanyalar */
+.ipuclar {
+    padding: 10px 0;
+}
+.ipuclar .baslik {
+    margin: 0 0 10px 0;
+}
+.ipuclar .baslik:after {
+    display: none;
+}
+.ipuclar .baslik h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+#ipuclar {
+    margin: 10px 0 0 0;
+}
+#ipuclar .col p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #888;
+    padding: 0 10px;
+}
+#ipuclar .col .tumu {
+    margin: 10px 0 0 0;
+}
+
+.page-body {
+    clear: both;
+    height: auto;
+    margin: 70px 0 0 0;
+    padding: 0px;
+}
+
+/* white-box */
+.white-box {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+.white-box .white-box-item.box-r-right {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 80px;
+}
+.white-box .white-box-item.box-r-left {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 80px;
+}
+.white-box .white-box-item.box-a-left {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    right: 0;
+    margin: 0 auto;
+}
+.white-box .white-box-item.box-a-right {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    right: 0;
+    margin: 0 auto;
+}
+.white-box .white-box-item img {
+    width: 60px;
+}
+.white-box p {
+    margin-bottom: 10px;
+}
+
+/* ozellikler */
+.ozellikler.ozellikler-page {
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+.ozellikler .row {
+    margin-top: -10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.ozellikler .col {
+    position: relative;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.ozellikler .col .ozellik-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
+}
+.ozellikler .col .ozellik-text {
+    float: left;
+    margin: 0 0 0 80px;
+    padding-right: 0;
+}
+
+/* fiyatlar */
+.pricing-table .cta-button {
+    padding: 10px;
+}
+
+/* kayit */
+#kayitol.siteForm {
+    border-radius: 10px;
+    width: initial;
+    margin: 10px;
+}
+/* sifremiunuttum */
+#sifremiunuttum.siteForm {
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    margin: 10px;
+}
+
+/* fiyatlar */
+.cd-pricing-container {
+    margin: 0;
+}
+.cd-pricing-switcher label {
+    width: 140px;
+    font-size: 13px;
+}
+.cd-pricing-switcher .cd-switch {
+    width: 140px;
+}
+.cd-pricing-switcher input[type="radio"]:checked+label+.cd-switch, .cd-pricing-switcher input[type="radio"]:checked+label:nth-of-type(n)+.cd-switch {
+    /* use label:nth-of-type(n) to fix a bug on safari with multiple adjacent-sibling selectors*/
+    -webkit-transform: translateX(140px);
+    -moz-transform: translateX(140px);
+    -ms-transform: translateX(140px);
+    -o-transform: translateX(140px);
+    transform: translateX(140px);
+}
+
+.page-body .page-content .content {
+    background-color: #ffffff;
+    padding: 10px;
+}
+.page-body .page-content .content h1 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+.page-body .page-content .content .geri-don {
+    margin: 0 0 10px 0;
+}
+.FAQ .ui-accordion-header {
+    font-size: 15px !important;
+}
+
+.page-image .page-title h1 {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+/* 404 */
+.dortyuzdort {
+    width: 100%;
+    background: #fff url(../img/error.png) no-repeat top 20px center;
+    text-align: center;
+    padding: 150px 0 30px 0;
+    margin: 70px 0 0;
+    background-size: 180px;
+}
+.dortyuzdort h1 {
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.dropdownLogin {
+    width: 240px;
+    margin-left: -120px;
+    padding: 10px;
+    top: 70px;
+}
+#siteLogin.siteForm .socialOr {
+    margin: 10px 0;
+}
+
+/* sepet */
+.cart {
+    padding: 5px;
+}
+#basket-table>thead>tr>th {
+    padding: 5px;
+    font-size: 15px;
+}
+#basket-table>tbody>tr>td.product>.product-info {
+    padding: 5px;
+    height: auto;
+}
+.btn-back i.shop-continue {
+    display: none;
+}
+.btn-okey i.shop-complete {
+    display: none;
+}
+.btn-back {
+    height: 50px;
+    line-height: 50px;
+}
+.btn-okey {
+    height: 50px;
+    line-height: 50px;
+}
+#basket-table>tbody>tr>td.product>.product-info>.product-info-tc .ng-binding {
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.checkoutRight .checkoutRightContent {
+    padding: 5px;
+}
+.checkoutRight .checkoutRightTitle {
+    padding: 5px;
+    font-size: 15px;
+}
+.checkoutRight .basket-total {
+    min-height: auto;
+    padding: 5px 0;
+}
+.checkoutRight .basket-total .payment-list>li.last {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.checkoutRight .basket-total .payment-list {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0 5px;
+}
+.checkoutRight .completeButton {
+    margin: 5px 0 0 0;
+}
+
+.pricing-table li {
+    line-height: 2.1em;
+    font-size: 13px;
+}
+
+/* odeme */
+.checkoutBox {
+    padding: 5px;
+}
+.checkoutBox .checkoutBoxItem .checkoutBoxHeader {
+    float: left;
+    width: 100%;
+    background: #f8f8f8;
+    padding: 5px;
+    font-size: 15px;
+    color: #818994;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 0 5px 0;
+}
+.checkoutBox .checkoutBoxItem section .checkoutAdress .adressListHead {
+    font-size: 15px;
+    font-weight: 600;
+    color: #818994;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+.checkoutBox .checkoutBoxItem section .checkoutAdress .adressListHead .checkBoxSelect {
+    float: left;
+    line-height: 30px;
+}
+.checkoutBox .checkoutBoxItem section .checkoutAdress .adressListHead .checkBoxSelect label input {
+    margin: 5px 5px 0px 0;
+}
+.checkoutBox .checkoutBoxItem section .checkoutAdress .adressList {
+    position: relative;
+    min-height: 20px;
+    border-bottom: 1px solid #ebedf3;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+.checkoutBox .checkoutBoxItem section .checkoutAdress .adressList .toggleAdress {
+    float: right;
+    background: url(../img/toggle-plus.png) no-repeat center;
+    width: 11px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.checkoutBox .checkoutBoxItem section .checkoutAdress .adressListBottom p {
+    margin-bottom: 1px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.checkoutBox .checkoutBoxItem section .checkoutAdress .adressListBottom {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 0 5px 5px 5px;
+}
+.checkoutBox .checkoutBoxItem .checkoutBoxFooter {
+    float: left;
+    width: 100%;
+    margin: 5px 0 0 0;
+}
+.checkoutBox .checkoutBoxItem section {
+    float: left;
+    width: 100%;
+    margin: 0 0 5px 0;
+}
+.checkoutBox .checkoutBoxItem section .checkoutAdress .adressListHead .checkBoxSelect label .checkTitle {
+    color: #818994;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    float: left;
+}
+.checkoutBox .checkoutBoxItem section .checkoutAdress .adressListHead .cargoPrice {
+    float: right;
+    font-weight: 700;
+    font-size: 12px;
+    color: #e97f77;
+    line-height: 30px;
+}
+.checkoutBox .checkoutBoxItem section .checkoutPayment .checkoutPaymentHead .paymentTypesWrapper {
+    padding: 5px;
+    border-bottom: 1px solid #ebedf3;
+}
+.checkoutBox .checkoutBoxItem section .checkoutPayment .paymentTypesWrapper ul li {
+    display: inline-block;
+    color: #9BA6AF;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.checkoutBox .checkoutBoxItem section .checkoutPayment .paymentTypesWrapper ul li label input {
+    margin: 0 5px 0px 0;
+    float: left;
+    border: none;
+    box-shadow: inset 0px 2px 1px -1px rgba(0, 0, 0, 0.3);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.checkoutBox .checkoutBoxItem section .checkoutPayment .paymentTypesContainer .paymentCreditCard {
+    padding: 5px;
+}
+.checkoutBox .checkoutBoxItem section .checkoutPayment .paymentTypesContainer .paymentCreditCard .cardDiv {
+    width: 100%;
+    display: inline-block;
+}
+.checkoutBox .checkoutBoxItem section .checkoutPayment .paymentTypesContainer .paymentCreditCard .cardDiv>div label {
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    max-width: 100%;
+    margin-bottom: 5px;
+    color: #232323;
+}
+.checkoutBox .checkoutBoxItem section .checkoutPayment .paymentTypesContainer .paymentCreditCard .cardDiv>div {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 5px 0;
+}
+.card-wrapper {
+    width: 100%;
+    float: right;
+    margin: 5px 0 0 0;
+}
+.payment-agreement {
+    float: left;
+    width: 100%;
+    display: block !important;
+    padding: 5px;
+    border-top: 1px solid #ebedf3;
+}
+.modal-body {
+    position: relative;
+    padding: 5px;
+}
+hr {
+    border: none;
+    border-top: 2px solid #eee;
+    height: 0;
+    margin: 5px 0;
+}
+.form-group {
+    margin-bottom: 5px;
+}
+.checkoutRight .checkoutRightTitle .cartEdit {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background: #fff url(../img/cartEdit.png) no-repeat center;
+    border-radius: 50%;
+}
+.checkoutRight .basket-item {
+    height: auto;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 5px 0;
+}
+.checkoutRight .basket-item .info {
+    padding: 0 5px;
+}
+.checkoutRight {
+    margin-top: 5px !important;
+}
